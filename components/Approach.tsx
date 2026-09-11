@@ -14,7 +14,7 @@ export default function Approach() {
         <div className="relative aspect-[4/3] rounded-2xl overflow-hidden order-2 md:order-1">
           {/* PLACEHOLDER — replace with a licensed image showing a warm, collaborative feel */}
           <Image
-            src="https://picsum.photos/seed/therapy-approach/900/700"
+            src="/images/approach.jpg"
             alt="A warm, collaborative therapy approach"
             fill
             className="object-cover"

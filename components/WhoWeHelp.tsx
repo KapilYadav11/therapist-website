@@ -3,17 +3,17 @@ import Image from "next/image";
 const groups = [
   {
     title: "High-Achievers & Professionals",
-    seed: "who-help-professionals",
+    image: "/images/who-help-1.jpg",
     text: "Entrepreneurs, creatives, and professionals who feel disconnected from themselves after years of pushing through stress. Therapy becomes a space to slow down and reconnect.",
   },
   {
     title: "Anxiety, Panic & Burnout",
-    seed: "who-help-anxiety",
+    image: "/images/who-help-2.jpg",
     text: "For those who feel 'functional' on the outside while quietly managing constant worry, body tension, disrupted sleep, or a sense of always bracing for the worst.",
   },
   {
     title: "Adults Healing from Trauma",
-    seed: "who-help-trauma",
+    image: "/images/who-help-3.jpg",
     text: "Whether from a single event or long-standing patterns rooted in childhood or chronic stress, we move at a careful pace focused on safety and stabilization.",
   },
 ];
@@ -32,7 +32,7 @@ export default function WhoWeHelp() {
             <div className="relative aspect-[5/4] rounded-2xl overflow-hidden mb-5">
               {/* PLACEHOLDER — replace with a licensed image relevant to this group */}
               <Image
-                src={`https://picsum.photos/seed/${g.seed}/700/560`}
+                src={g.image}
                 alt={g.title}
                 fill
                 className="object-cover"

@@ -36,10 +36,9 @@ export default function OurOffice() {
             />
           </div>
           <div className="relative aspect-[3/4] rounded-2xl overflow-hidden col-span-2 sm:col-span-1">
-            {/* PLACEHOLDER — swap for your second office photo (office2.jpeg) once re-uploaded */}
             <Image
-              src="https://picsum.photos/seed/therapy-office-2/700/900"
-              alt="A quiet corner of the therapy office"
+              src="/images/office-2.jpg"
+              alt="A quiet corner of Dr. Maya Reynolds' Santa Monica therapy office"
               fill
               className="object-cover"
             />

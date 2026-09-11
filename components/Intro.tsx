@@ -26,7 +26,7 @@ export default function Intro() {
         <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
           {/* PLACEHOLDER — replace with a licensed calming lifestyle image */}
           <Image
-            src="https://picsum.photos/seed/therapy-intro/900/1100"
+            src="/images/intro.jpg"
             alt="A calm, grounding environment"
             fill
             className="object-cover"

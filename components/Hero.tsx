@@ -28,20 +28,20 @@ export default function Hero() {
         <div className="md:col-span-3 relative aspect-[4/3] rounded-2xl overflow-hidden">
           {/* PLACEHOLDER — replace with a licensed image of a calm therapy conversation / hands / journaling */}
           <Image
-            src="https://picsum.photos/seed/therapy-hero-main/1200/900"
+            src="/images/hero-main.jpg"
             alt="A warm, calming therapy space in natural light"
             fill
-            className="object-cover"
+            className="object-cover object-top"
             priority
           />
         </div>
         <div className="md:col-span-2 relative aspect-[4/3] rounded-2xl overflow-hidden">
           {/* PLACEHOLDER — replace with a licensed image, e.g. journaling or a quiet moment */}
           <Image
-            src="https://picsum.photos/seed/therapy-hero-side/800/900"
+            src="/images/hero-side.jpg"
             alt="A quiet moment of reflection"
             fill
-            className="object-cover"
+            className="object-cover object-top"
           />
         </div>
       </div>

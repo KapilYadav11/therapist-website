@@ -12,7 +12,7 @@ const services = [
   {
     id: "anxiety",
     title: "Anxiety & Panic Therapy",
-    seed: "service-anxiety",
+    image: "/images/service-anxiety.jpg",
     summary:
       "For constant worry, racing thoughts, and the panic that comes with feeling like you're always bracing for something to go wrong.",
     whoFor:
@@ -24,7 +24,7 @@ const services = [
   {
     id: "trauma",
     title: "Trauma Therapy with EMDR",
-    seed: "service-trauma",
+    image: "/images/service-trauma.jpg",
     summary:
       "Careful, paced support for single-incident trauma or long-standing patterns rooted in childhood, relationships, or chronic stress.",
     whoFor:
@@ -36,7 +36,7 @@ const services = [
   {
     id: "burnout",
     title: "Burnout & Perfectionism Recovery",
-    seed: "service-burnout",
+    image: "/images/service-burnout.jpg",
     summary:
       "For entrepreneurs, creatives, and professionals who feel disconnected from themselves after years of pushing through stress.",
     whoFor:
@@ -59,9 +59,9 @@ export default function ServicesPage() {
           </h1>
           <p className="text-charcoal/75 leading-relaxed text-lg">
             I integrate evidence-based methods — including CBT, EMDR,
-            mindfulness-based practices, and body-oriented techniques —
-            tailored to what you&apos;re working through. Here&apos;s a closer
-            look at how I can help.
+            mindfulness-based practices, and body-oriented techniques — tailored
+            to what you&apos;re working through. Here&apos;s a closer look at
+            how I can help.
           </p>
         </section>
 
@@ -69,7 +69,9 @@ export default function ServicesPage() {
           <section
             key={s.id}
             id={s.id}
-            className={i % 2 === 0 ? "bg-linen-dark py-16 md:py-20" : "py-16 md:py-20"}
+            className={
+              i % 2 === 0 ? "bg-linen-dark py-16 md:py-20" : "py-16 md:py-20"
+            }
           >
             <div className="container-content grid md:grid-cols-2 gap-12 items-center">
               <div
@@ -79,7 +81,7 @@ export default function ServicesPage() {
               >
                 {/* PLACEHOLDER — replace with a licensed image relevant to this service */}
                 <Image
-                  src={`https://picsum.photos/seed/${s.seed}/900/700`}
+                  src={s.image}
                   alt={s.title}
                   fill
                   className="object-cover"

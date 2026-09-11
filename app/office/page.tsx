@@ -20,11 +20,10 @@ export default function OfficePage() {
               A calm, private space to land in.
             </h1>
             <p className="text-charcoal/75 leading-relaxed text-lg">
-              My Santa Monica office is a quiet, private space designed to
-              feel calm and grounding — with natural light and a
-              comfortable, uncluttered environment. Clients often share that
-              the space itself helps them feel more at ease the moment they
-              arrive.
+              My Santa Monica office is a quiet, private space designed to feel
+              calm and grounding — with natural light and a comfortable,
+              uncluttered environment. Clients often share that the space itself
+              helps them feel more at ease the moment they arrive.
             </p>
           </div>
 
@@ -38,10 +37,9 @@ export default function OfficePage() {
               />
             </div>
             <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-              {/* PLACEHOLDER — swap for your second office photo (office2.jpeg) once re-uploaded */}
               <Image
-                src="https://picsum.photos/seed/therapy-office-2/900/700"
-                alt="A quiet corner of the therapy office"
+                src="/images/office-2.jpg"
+                alt="A quiet corner of Dr. Maya Reynolds' Santa Monica therapy office"
                 fill
                 className="object-cover"
               />
@@ -74,8 +72,8 @@ export default function OfficePage() {
                 Comfort &amp; Privacy
               </h2>
               <p className="text-charcoal/70 leading-relaxed">
-                The space is intentionally uncluttered and private, so you
-                can focus fully on the work without distraction.
+                The space is intentionally uncluttered and private, so you can
+                focus fully on the work without distraction.
               </p>
             </div>
           </div>

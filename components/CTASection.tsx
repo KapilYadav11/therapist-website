@@ -23,7 +23,7 @@ export default function CTASection() {
         <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
           {/* PLACEHOLDER — replace with a licensed warm, hopeful image */}
           <Image
-            src="https://picsum.photos/seed/therapy-cta/900/700"
+            src="/images/cta.jpg"
             alt="Reach out to schedule your consultation"
             fill
             className="object-cover"
