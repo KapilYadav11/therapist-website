@@ -15,14 +15,12 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 w-full bg-linen/90 backdrop-blur-sm border-b border-charcoal/10">
       <div className="container-content w-full px-4 sm:px-6 flex items-center justify-between py-4">
-        
         {/* Logo / Name: Added truncate/shrink-0 safe wrapper */}
         <a
           href="/"
           className="font-display text-xl text-charcoal inline-flex items-center gap-1.5 hover:text-clay transition-colors shrink"
         >
-          Maya Reynolds{" "}
-          <span className="text-clay italic">, PsyD</span>
+          Maya Reynolds <span className="text-clay italic">, PsyD</span>
         </a>
 
         {/* Desktop Navigation */}
@@ -56,10 +54,11 @@ export default function Header() {
         </button>
       </div>
 
-      {/* Mobile Navigation Dropdown */}
+      {/* Mobile Navigation */}
       {menuOpen && (
         <div className="md:hidden border-t border-charcoal/10 px-6 py-5 bg-linen w-full">
-          <nav className="flex flex-col gap-5">
+          {/* items-end aur text-right se sab right side shift ho jayega */}
+          <nav className="flex flex-col gap-5 items-end text-right">
             {navLinks.map((link) => (
               <a
                 key={link.href}
@@ -71,10 +70,11 @@ export default function Header() {
               </a>
             ))}
 
+            {/* Button ko full width ya auto right rakh sakte hain */}
             <a
               href="/contact"
               onClick={() => setMenuOpen(false)}
-              className="btn-primary text-center !py-2.5 !px-5 text-sm"
+              className="btn-primary w-full text-center !py-2.5 !px-5 text-sm"
             >
               Book a Free Consult
             </a>
