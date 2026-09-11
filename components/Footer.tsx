@@ -3,9 +3,9 @@ export default function Footer() {
     <footer className="bg-charcoal text-linen/80 py-16">
       <div className="container-content grid md:grid-cols-3 gap-10">
         <div>
-          <p className="font-display text-xl text-linen mb-3">
+          <a href="/" className="font-display text-xl text-linen mb-3 inline-block hover:text-clay transition-colors">
             Maya Reynolds, PsyD
-          </p>
+          </a>
           <p className="text-sm leading-relaxed text-linen/60">
             Licensed Clinical Psychologist. Therapy for anxiety, trauma, and
             burnout — in-person in Santa Monica, CA, and telehealth across
@@ -16,10 +16,10 @@ export default function Footer() {
         <div>
           <p className="text-sm font-medium text-linen mb-3">Navigate</p>
           <ul className="space-y-2 text-sm text-linen/60">
-            <li><a href="#about" className="hover:text-linen">About</a></li>
-            <li><a href="#services" className="hover:text-linen">Services</a></li>
-            <li><a href="#office" className="hover:text-linen">Our Office</a></li>
-            <li><a href="#faqs" className="hover:text-linen">FAQs</a></li>
+            <li><a href="/about" className="hover:text-linen">About</a></li>
+            <li><a href="/services" className="hover:text-linen">Services</a></li>
+            <li><a href="/office" className="hover:text-linen">Our Office</a></li>
+            <li><a href="/faqs" className="hover:text-linen">FAQs</a></li>
           </ul>
         </div>
 

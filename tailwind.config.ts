@@ -10,7 +10,7 @@ const config: Config = {
       colors: {
         // Brand palette — inspired by the office's warm brick, wood, and sage tones
         clay: {
-          DEFAULT: "#A85D3F",
+          DEFAULT: "#96502F",
           light: "#C17F5F",
           dark: "#7E4530",
         },
