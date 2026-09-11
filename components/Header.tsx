@@ -9,7 +9,11 @@ export default function Header() {
   return (
     <header className="sticky top-0 z-50 bg-linen/90 backdrop-blur-sm border-b border-charcoal/10">
       <div className="container-content flex items-center justify-between py-4">
-        <a href="#top" className="font-display text-xl text-charcoal">
+        <a
+          href="/"
+          className="font-display text-xl text-charcoal inline-flex items-center gap-2 hover:text-clay transition-colors"
+        >
+          {/*<span aria-hidden="true">←</span>*/}
           Maya Reynolds{" "}
           <span className="text-clay italic">, PsyD</span>
         </a>
@@ -26,7 +30,7 @@ export default function Header() {
           ))}
         </nav>
 
-          <a href="/contact" className="btn-primary !py-2.5 !px-5 text-sm">
+        <a href="/contact" className="btn-primary !py-2.5 !px-5 text-sm">
           Book a Free Consult
         </a>
       </div>

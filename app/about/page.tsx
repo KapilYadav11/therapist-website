@@ -21,7 +21,7 @@ export default function AboutPage() {
                 src="/images/maya-headshot.png"
                 alt="Dr. Maya Reynolds, PsyD"
                 fill
-                className="object-cover"
+                className="object-cover object-top"
                 priority
               />
             </div>
