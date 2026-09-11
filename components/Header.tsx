@@ -57,7 +57,6 @@ export default function Header() {
       {/* Mobile Navigation */}
       {menuOpen && (
         <div className="md:hidden border-t border-charcoal/10 px-6 py-5 bg-linen w-full">
-          {/* items-end aur text-right se sab right side shift ho jayega */}
           <nav className="flex flex-col gap-5 items-end text-right">
             {navLinks.map((link) => (
               <a
@@ -70,11 +69,11 @@ export default function Header() {
               </a>
             ))}
 
-            {/* Button ko full width ya auto right rakh sakte hain */}
+            {/* self-end aur w-fit se button bhi theek links aur "X" ke neeche compact rahega */}
             <a
               href="/contact"
               onClick={() => setMenuOpen(false)}
-              className="btn-primary w-full text-center !py-2.5 !px-5 text-sm"
+              className="btn-primary self-end w-fit !py-2.5 !px-5 text-sm"
             >
               Book a Free Consult
             </a>
