@@ -1,4 +1,4 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import { Fraunces, Inter } from "next/font/google";
 import "./globals.css";
 
@@ -17,6 +17,13 @@ const inter = Inter({
   display: "swap",
 });
 
+// 1. Ye export add karein (Ye mobile responsive trigger karega)
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+  maximumScale: 1,
+};
+
 export const metadata: Metadata = {
   title: "Santa Monica Anxiety & Trauma Therapist | Dr. Maya Reynolds, PsyD",
   description:
@@ -30,7 +37,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${fraunces.variable} ${inter.variable}`}>
-      <body>{children}</body>
+      <body className="overflow-x-hidden">{children}</body>
     </html>
   );
 }
