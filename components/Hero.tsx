@@ -17,7 +17,7 @@ export default function Hero() {
       </p>
       <div className="mt-9 flex flex-wrap items-center gap-4">
         <a href="/contact" className="btn-primary">
-          Schedule a Free Consultation
+          Schedule a Session
         </a>
         <a href="#about" className="btn-secondary">
           Meet Dr. Reynolds
@@ -26,7 +26,6 @@ export default function Hero() {
 
       <div className="mt-16 grid grid-cols-1 md:grid-cols-5 gap-5">
         <div className="md:col-span-3 relative aspect-[4/3] rounded-2xl overflow-hidden">
-          {/* PLACEHOLDER — replace with a licensed image of a calm therapy conversation / hands / journaling */}
           <Image
             src="/images/hero-main.jpg"
             alt="A warm, calming therapy space in natural light"
@@ -36,7 +35,6 @@ export default function Hero() {
           />
         </div>
         <div className="md:col-span-2 relative aspect-[4/3] rounded-2xl overflow-hidden">
-          {/* PLACEHOLDER — replace with a licensed image, e.g. journaling or a quiet moment */}
           <Image
             src="/images/hero-side.jpg"
             alt="A quiet moment of reflection"

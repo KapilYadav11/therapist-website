@@ -35,7 +35,7 @@ export default function About() {
             understood, and actively involved in the process.
           </p>
           <a href="/contact" className="btn-primary !bg-clay mt-2">
-            Book a Free Consultation
+            Schedule a Seesion
           </a>
         </div>
       </div>

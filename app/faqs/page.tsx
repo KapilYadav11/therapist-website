@@ -62,7 +62,7 @@ export default function FAQPage() {
         </div>
 
         <a href="/contact" className="btn-primary">
-          Schedule a Free Consultation
+          Schedule a Session
         </a>
       </main>
       <Footer />

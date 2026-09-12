@@ -54,7 +54,7 @@ export default function OfficePage() {
                 Where We're Located
               </h2>
               <p className="text-charcoal/70 leading-relaxed">
-                123 45th Street W<br />
+                123th Street 45 W<br />
                 Santa Monica, CA 90401
               </p>
             </div>
@@ -85,7 +85,7 @@ export default function OfficePage() {
               Ready to visit, or meet online instead?
             </h2>
             <a href="/contact" className="btn-primary">
-              Schedule a Free Consultation
+              Schedule a Session
             </a>
           </div>
         </section>

@@ -17,11 +17,10 @@ export default function CTASection() {
             href="/contact"
             className="inline-flex items-center gap-2 bg-linen text-clay-dark px-7 py-3.5 rounded-full font-body font-medium text-[15px] hover:bg-linen-dark transition-colors"
           >
-            Schedule Your Free Consultation
+            Schedule a Session
           </a>
         </div>
         <div className="relative aspect-[4/3] rounded-2xl overflow-hidden">
-          {/* PLACEHOLDER — replace with a licensed warm, hopeful image */}
           <Image
             src="/images/cta.jpg"
             alt="Reach out to schedule your consultation"

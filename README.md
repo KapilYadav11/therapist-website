@@ -45,13 +45,13 @@ The website uses a warm, calming visual theme suitable for a therapy practice.
 ## 📄 Pages
 
 | Route       | Description                |
-| ----------- | -------------------------- |
-| `/`         | Main homepage              |
-| `/about`    | Therapist information      |
-| `/services` | Therapy services           |
-| `/office`   | Our Office                 |
-| `/faq`      | Frequently asked questions |
-| `/contact`  | Consultation form          |
+| ----------- | --------------------------- |
+| `/`         | Main homepage               |
+| `/about`    | Therapist information       |
+| `/services` | Therapy services            |
+| `/office`   | Our Office                  |
+| `/faqs`     | Frequently asked questions  |
+| `/contact`  | Consultation form           |
 
 ## 📁 Project Structure
 
@@ -60,8 +60,9 @@ app/
 ├── about/
 ├── services/
 ├── office/
-├── faq/
+├── faqs/
 ├── contact/
+├── icon.svg
 ├── globals.css
 ├── layout.tsx
 └── page.tsx
@@ -69,6 +70,9 @@ app/
 components/
 ├── Header.tsx
 ├── Hero.tsx
+├── Intro.tsx
+├── WhoWeHelp.tsx
+├── Expertise.tsx
 ├── About.tsx
 ├── Services.tsx
 ├── Approach.tsx
@@ -134,6 +138,6 @@ Live Website: https://drmayareynolds.vercel.app
 
 **Kapil Yadav**
 
-B.Tech Student | Full Stack Developer 
+B.Tech Student | Full Stack Developer
 
 [GitHub](https://github.com/KapilYadav11)

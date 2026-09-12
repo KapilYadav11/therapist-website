@@ -152,7 +152,7 @@ export default function AboutPage() {
             may be a good fit.
           </p>
           <a href="/contact" className="btn-primary">
-            Schedule a Free Consultation
+            Schedule a Session
           </a>
         </section>
       </main>

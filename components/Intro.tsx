@@ -24,7 +24,6 @@ export default function Intro() {
           </p>
         </div>
         <div className="relative aspect-[4/5] rounded-2xl overflow-hidden">
-          {/* PLACEHOLDER — replace with a licensed calming lifestyle image */}
           <Image
             src="/images/intro.jpg"
             alt="A calm, grounding environment"

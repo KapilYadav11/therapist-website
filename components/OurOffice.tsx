@@ -21,7 +21,7 @@ export default function OurOffice() {
           </p>
           <div className="text-[15px] text-charcoal/70 space-y-1">
             <p className="font-medium text-charcoal">Visit us at</p>
-            <p>123 45th Street W</p>
+            <p>123th Street 45 W</p>
             <p>Santa Monica, CA 90401</p>
           </div>
         </div>

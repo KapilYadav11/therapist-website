@@ -26,7 +26,7 @@ export default function Footer() {
         <div>
           <p className="text-sm font-medium text-linen mb-3">Contact</p>
           <ul className="space-y-2 text-sm text-linen/60">
-            <li>123 45th Street W</li>
+            <li>123th Street 45 W</li>
             <li>Santa Monica, CA 90401</li>
             <li>
               <a href="mailto:hello@mayareynoldstherapy.com" className="hover:text-linen">
@@ -38,8 +38,7 @@ export default function Footer() {
       </div>
 
       <div className="container-content mt-12 pt-6 border-t border-linen/10 text-xs text-linen/40">
-        © {new Date().getFullYear()} Maya Reynolds, PsyD. This is a fictional
-        practice created for a design assignment.
+        © {new Date().getFullYear()} Maya Reynolds, PsyD.
       </div>
     </footer>
   );

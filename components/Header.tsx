@@ -41,7 +41,7 @@ export default function Header() {
           href="/contact"
           className="hidden md:inline-flex btn-primary !py-2.5 !px-5 text-sm"
         >
-          Book a Free Consult
+          Schedule a Session
         </a>
 
         <button
@@ -69,13 +69,12 @@ export default function Header() {
               </a>
             ))}
 
-            {/* self-end aur w-fit se button bhi theek links aur "X" ke neeche compact rahega */}
             <a
               href="/contact"
               onClick={() => setMenuOpen(false)}
               className="btn-primary self-end w-fit !py-2.5 !px-5 text-sm"
             >
-              Book a Free Consult
+              Schedule a Session
             </a>
           </nav>
         </div>
